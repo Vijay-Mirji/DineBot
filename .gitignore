@@ -1,0 +1,46 @@
+# 💡 Virtual Environment / Dependencies 
+# Exclude the entire Python virtual environment folder
+venv/
+.venv/
+# Standard dependency/build directories in Python environments
+/lib/python3.10/site-packages/
+
+# 🐍 Python Artifacts
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Compiled modules (e.g., Cython/C extensions) generated during build 
+# These are often platform-specific and shouldn't be version controlled
+*.so
+*.pyd
+*.cpython-*.so
+*.cpython-*.pyc
+
+# 📦 Build and Distribution Files
+# Distribution / packaging artifacts
+.Python
+build/
+dist/
+develop-eggs/
+.eggs/
+*.egg-info/
+.install-log
+
+# 🛠️ Testing and Tooling
+.pytest_cache/
+htmlcov/
+.tox/
+
+# 💾 Application-Specific Artifacts (Backend)
+# Database files
+/backend/database/*.db
+# Temporary files (e.g., configuration, if not intended to be versioned)
+# Assuming 'config.py' is versioned, but its compiled bytecode is excluded above.
+# Assuming 'sample_data.json' should be versioned, but if it's large/changes frequently, you might add:
+# /backend/data/sample_data.json
+
+# 🖥️ Operating System / Editor Artifacts
+.DS_Store
+.vscode/
+Thumbs.db
