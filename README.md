@@ -69,7 +69,7 @@ dinebot/
 
 ```bash
 # If using git
-git clone <your-repo-url>
+git clone https://github.com/Vijay-Mirji/DineBot.git
 cd dinebot
 
 # Or download and extract the ZIP file
@@ -323,7 +323,10 @@ This project is created for educational purposes. Feel free to use and modify fo
 
 ## 👥 Contributors
 
-Your Name - Initial work
+- Adithya Angadi
+- Virupaxappa Mirji
+- Nitish Bhusnoor
+- Shrishail Balaraddi
 
 ## 🙏 Acknowledgments
 
@@ -337,9 +340,3 @@ For issues or questions:
 1. Check the Troubleshooting section
 2. Review code comments
 3. Test with sample queries provided
-
----
-
-**Built with ❤️ for college projects**
-
-Happy coding! 🚀
