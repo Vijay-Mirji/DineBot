@@ -59,8 +59,8 @@
       "name": "Caesar Salad",
       "category": "Appetizer",
       "price": 179,
-      "description": "Fresh romaine lettuce with parmesan and croutons",
-      "ingredients": ["lettuce", "parmesan", "croutons", "caesar dressing"],
+      "description": "Fresh romaine lettuce with parmesan cheese, croutons, and Caesar dressing",
+      "ingredients": ["romaine lettuce", "parmesan cheese", "croutons", "caesar dressing", "garlic"],
       "is_vegetarian": true,
       "is_vegan": false,
       "spice_level": "none",
@@ -125,12 +125,45 @@
       "name": "Biryani Rice",
       "category": "Main Course",
       "price": 299,
-      "description": "Fragrant basmati rice with aromatic spices",
-      "ingredients": ["basmati rice", "saffron", "spices", "herbs"],
+      "description": "Fragrant basmati rice with aromatic spices and herbs",
+      "ingredients": ["basmati rice", "saffron", "spices", "herbs", "fried onions"],
       "is_vegetarian": true,
       "is_vegan": true,
       "spice_level": "medium",
       "preparation_time": 25
+    },
+    {
+      "name": "Samosa",
+      "category": "Appetizer",
+      "price": 79,
+      "description": "Crispy pastry filled with spiced potatoes and peas",
+      "ingredients": ["potato", "peas", "spices", "flour", "oil"],
+      "is_vegetarian": true,
+      "is_vegan": true,
+      "spice_level": "medium",
+      "preparation_time": 15
+    },
+    {
+      "name": "Fish Curry",
+      "category": "Main Course",
+      "price": 399,
+      "description": "Fresh fish cooked in coconut-based curry with spices",
+      "ingredients": ["fish", "coconut milk", "tomato", "spices", "curry leaves"],
+      "is_vegetarian": false,
+      "is_vegan": false,
+      "spice_level": "hot",
+      "preparation_time": 25
+    },
+    {
+      "name": "Mushroom Soup",
+      "category": "Appetizer",
+      "price": 129,
+      "description": "Creamy mushroom soup with herbs and garlic",
+      "ingredients": ["mushroom", "cream", "garlic", "herbs", "butter"],
+      "is_vegetarian": true,
+      "is_vegan": false,
+      "spice_level": "mild",
+      "preparation_time": 15
     }
   ]
 }
