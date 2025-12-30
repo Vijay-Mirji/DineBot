@@ -19,3 +19,6 @@ python-Levenshtein==0.23.0  # For faster fuzzy matching
 
 # Development (optional)
 pytest==7.4.3
+
+# Download spaCy Language Model
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz

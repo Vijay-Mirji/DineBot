@@ -93,21 +93,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Step 4: Download spaCy Language Model
-
-```bash
-python -m spacy download en_core_web_sm
-```
-
-#### If the above method fails, use the following alternative
-
-```bash
-pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
-```
-
-This downloads a ~12MB lightweight English language model.
-
-### Step 5: Initialize Database
+### Step 4: Initialize Database
 
 The database will be automatically created when you first run the application. The sample data from `backend/data/sample_data.json` will be loaded.
 
