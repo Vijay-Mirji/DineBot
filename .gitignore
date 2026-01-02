@@ -4,6 +4,8 @@ venv/
 .venv/
 # Standard dependency/build directories in Python environments
 /lib/python3.10/site-packages/
+# Environment variables
+.env
 
 # 🐍 Python Artifacts
 # Byte-compiled / optimized / DLL files

@@ -9,6 +9,19 @@ const CONFIG = {
     TYPING_DELAY: 500  // ms
 };
 
+// Load API_URL from Vercel (if available)
+fetch("/api/config")
+  .then(res => res.json())
+  .then(env => {
+    if (env.apiUrl) {
+      CONFIG.API_URL = env.apiUrl;
+    }
+    console.log("Using API URL:", CONFIG.API_URL);
+  })
+  .catch(() => {
+    console.log("Using fallback API URL:", CONFIG.API_URL);
+  });
+
 // DOM Elements
 const chatForm = document.getElementById('chatForm');
 const userInput = document.getElementById('userInput');
