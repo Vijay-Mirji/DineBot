@@ -2,6 +2,8 @@
 
 **A lightweight, offline-friendly restaurant chatbot built for college projects**
 
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://dine-bot-two.vercel.app/)
+
 DineBot is an intelligent chatbot that helps customers interact with a restaurant's menu and services. It uses NLP (Natural Language Processing) to understand customer queries and provides helpful responses about menu items, prices, and restaurant information.
 
 ## ✨ Features
